@@ -6,7 +6,10 @@
 }
 
 
+body {
 
+    position: relative;
+}
 
 main {
     font-family: 'Outfit', sans-serif;
