@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+
 }
 
 
 
 
-body {
+main {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
@@ -22,13 +23,11 @@ body {
 }
 
 
-.container {
 
-    max-width: 300px;
-    
-}
 
 .card {
+
+    max-width: 310px;
 
     background-color: hsl(0, 0%, 100%);
     padding: 15px;
@@ -51,11 +50,12 @@ body {
     text-align: center;
 }
 
-.text h3 {
+.text h2 {
 
     color:hsl(218, 44%, 22%);
     font-size: 20px;
     padding: 0 10px 15px 10px;
+    line-height: 1.4;
     
 }
 
@@ -63,7 +63,8 @@ body {
 
     padding: 0 10px ;
     color: hsl(220, 15%, 55%);
-    font-size: 14px;
+    font-size: 15px;
+    
 }
 
 .attribution {
@@ -71,11 +72,12 @@ body {
     position: absolute;
     bottom: 10px;
     text-align: center;
+    font-size: 70%;
 }
 
 @media screen and (max-width: 376px) {
     
-    .container {
+    .card {
 
         margin: 0 1.5rem;
     }
@@ -84,6 +86,6 @@ body {
 
         margin: 0 1.5rem;
         text-align: center;
-        font-size: 14px;
+        max-width: 170px;
     }
 }
